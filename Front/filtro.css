@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .header {
+    /*display: flex;*/
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e0e4f4;
+  }
+  
+.menu-icons{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+  
+  .main-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .filter-section {
+    width: 20%;
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+  }
+  
+  .filter-section h2 {
+    margin-bottom: 50px;
+  }
+  
+  .filter-section input,
+  .filter-section select,
+  .filter-section button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .content-section {
+    flex: 1;
+    margin-left: 60px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .card {
+    width: 200px;
+    height: 80px;
+    background-color: #6d89cb;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 10PX;
+
+  }
+  
+  .sections {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    height: 600px;
+
+  }
+  
+  .add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #6d89cb;
+    color: #ffffff;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  button{
+    background-color: #6d89cb;
+  }
+  .incone{
+    /*padding-left: 1350px;*/
+    float: right;
+  }
+  .incone2{
+    /*padding-right: 50px;
+    p/adding-left: 1430px;*/
+    float: right;
+  }
